@@ -5,7 +5,7 @@ import './App.css'
 
 function App() {
   async function getData() {
-    let result = await axios.get('http://jqapi.hao1bao.com/app', {
+    let result = await axios.get('https://jqapi.hao1bao.com/app', {
       params: {
         op: 'Page',
         cloud: 'index_roles',
